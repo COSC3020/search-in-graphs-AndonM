@@ -19,9 +19,4 @@ code, but you can base yours on test code from other exercises.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ complexity of your implementation? Add your
-answer, including your reasoning, to this markdown file.
-
-## Bonus
-
-Implement and analyze breadth-first search.
+In the worst case, we must visit all nodes and edges for a time complexity of O(V + E) where V represents the number of vertices and E represents the number of edges.
